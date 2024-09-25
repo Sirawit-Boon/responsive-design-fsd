@@ -64,7 +64,7 @@ h3 {
 
 .categories {
   max-width: 1900px;
-  min-width: 450px;
+  width: 450px;
   width: 100vw;
   height: 50vh;
 }
@@ -168,3 +168,44 @@ h3 {
 }
 
 /* Start coding here */
+
+@media only screen and (max-width:640px) {
+
+  .topic {
+    width: 327px;
+    height: 80px;
+    position: absolute;
+    top: 31.2px;
+    left: 24px;
+    margin: 0px;
+  }
+
+  .row-1,.row-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 333px;
+  }
+
+  .categories {
+    width: 333px;
+    height: 2312px;
+    position: absolute;
+    top: 141.2px;
+    left: 21px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .job-item,.job-more {
+    height: 268px;
+    width: 333px;
+  }
+
+  .container {
+    width: 375px;
+    height: 2670px;
+    display: flex;
+    flex-direction: column;
+  }
+}
